@@ -1,0 +1,126 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color:#FFFFFF;
+}
+.top-section{
+    background-color:#2D25A0;
+    margin-bottom: 75px;
+}
+.top-banner-section{
+    display: flex;
+    
+    
+} 
+.top-banner-section h1{
+    font-size: 64px; 
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700px;  
+    margin-left: 150px;
+    font-style: normal;
+    line-height: 80px;
+   
+
+}
+.top-banner-section img {
+    width: 556.01px;
+    height: 438px;
+    margin-left: 200px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: white;
+    font-weight: 700;
+    margin-left: 150px;
+
+}
+.link-button2{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: white;
+    font-weight: 700;
+
+}
+.players-section{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 1050px;
+    height: 474px;
+}
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.players img{
+
+    width: 300px;
+    height: 256px;
+}
+.players h2{
+    font-size: 28px;
+    font-weight: bold;
+
+    font-style: normal;
+    line-height: 40px;
+}
+.custom-div{
+    margin: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 1px;
+    padding: 10px;
+    
+}
+.third-section{
+    display: flex;
+}
+.third-section img{
+    width: 567px;
+    height: 427px;
+}
+.third-section h1{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+
+}
+ .half-width{
+    width: 50%;
+    padding-left: 5%;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+} 
+
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+footer p{
+    text-align: center 
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.social-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.social-icon img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
