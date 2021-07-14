@@ -37,6 +37,9 @@ body{
     margin-left: 150px;
 
 }
+.link-button:hover{
+    color: #2D25A0;
+}
 .link-button2{
     text-decoration: none;
     background-color: #E02C6D;
@@ -44,6 +47,9 @@ body{
     color: white;
     font-weight: 700;
 
+}
+.link-button2:hover{
+    color: green;
 }
 .players-section{
     display: flex;
