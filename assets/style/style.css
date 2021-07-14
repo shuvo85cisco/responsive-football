@@ -106,6 +106,14 @@ body{
     margin-right: 80px;
     margin-bottom: 100px;
 } 
+.half-width2{
+    width: 50%;
+    padding-left: 5%;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
 
 footer img{
     width: 483.87px;
@@ -134,3 +142,47 @@ footer p{
     display: inline;
     padding: 10px;
 }
+
+/* Mobile devices  */
+@media only screen and (max-width:688px) {
+    
+    .players{
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .players img{
+        width: 100%;
+    }
+    .footer-class  {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .third-section{
+        flex-direction: column;
+        width: 100%;
+    }
+    .third-section h1{
+        font-size: 45px;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .half-width{
+        margin: 1px;
+        width: 100%;
+        text-align: justify;
+    }
+    .half-width2{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }  
+    .third-section img{
+        width: 100%;
+        height: 100%;
+    }
+    .top-section{
+        display: none;
+    } 
+
+
+} 
